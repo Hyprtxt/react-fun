@@ -1,6 +1,6 @@
 {
   "name": "@plunder/hyperspace",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Fun Hyperspace React Component",
   "repository": "github:hyprtxt/react-fun",
   "main": "build/index.js",
