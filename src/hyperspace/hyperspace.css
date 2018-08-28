@@ -1,7 +1,9 @@
 .particule {
   z-index: 1000;
-  position: absolute; }
-  .particule:before {
-    content: '☺'; }
+  position: absolute;
+}
+.particule:before {
+  content: "T";
+}
 
 /*# sourceMappingURL=data:application/json;base64,ewoJInZlcnNpb24iOiAzLAoJImZpbGUiOiAic3JjL2NvbXBvbmVudHMvaHlwZXJzcGFjZS9oeXBlcnNwYWNlLmNzcyIsCgkic291cmNlcyI6IFsKCQkic3JjL2NvbXBvbmVudHMvaHlwZXJzcGFjZS9oeXBlcnNwYWNlLnNhc3MiCgldLAoJIm5hbWVzIjogW10sCgkibWFwcGluZ3MiOiAiO0FBQ0EsQUFBQSxVQUFVLENBQUM7RUFDVCxPQUFPLEVBQUUsSUFBSTtFQUNiLFFBQVEsRUFBRSxRQUFRLEdBR0U7RUFMdEIsQUFJRSxVQUpRLEFBSVAsT0FBTyxDQUFDO0lBQ1AsT0FBTyxFQUFFLElBQUksR0FBRyIKfQ== */

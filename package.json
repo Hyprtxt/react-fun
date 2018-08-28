@@ -1,7 +1,7 @@
 {
-  "name": "@hyprtxt/react-fun",
+  "name": "@plunder/hyperspace",
   "version": "1.0.1",
-  "description": "Fun React Components",
+  "description": "Fun Hyperspace React Component",
   "repository": "github:hyprtxt/react-fun",
   "main": "build/index.js",
   "scripts": {
@@ -10,8 +10,8 @@
     "build": "webpack"
   },
   "author": {
-    "name": "Your name",
-    "email": "your email"
+    "name": "Taylor Young",
+    "email": "taylor.young@wearedauntless.com"
   },
   "license": "MIT",
   "peerDependencies": {
