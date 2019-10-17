@@ -9,7 +9,19 @@ class Hyperspace extends React.Component {
     this.state;
     this.myRef = React.createRef();
   }
-
+  
+  maybeMeasureWindow() {
+    const returnObject = {};
+    if ( window !== undefined ) {
+      returnObject.midScreenX = window.innerWidth / 2;
+      returnObject.midScreenY = window.innerHeight / 2;
+    } else {
+      returnObject.midScreenX = 500;
+      returnObject.midScreenY = 500;
+    }
+    return returnObject;
+  }
+  
   componentDidMount() {
     let currentHue = 180;
     const hueCounter = () => {
@@ -23,8 +35,7 @@ class Hyperspace extends React.Component {
     };
     const numberOfEls = 50;
     const duration = 2000;
-    const midScreenX = window.innerWidth / 2;
-    const midScreenY = window.innerHeight / 2;
+    const { midScreenX, midScreenY } = maybeMeasureWindow();
     const radius = Math.sqrt(midScreenX * midScreenX + midScreenY * midScreenY);
     const fragment = document.createDocumentFragment();
 
